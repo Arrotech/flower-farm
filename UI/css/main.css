@@ -10,9 +10,230 @@ body{
   padding: 0;
 }
 
+header{
+  background-color: #25523B;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #358856;
+  margin: 5px;
+  border-radius: 5px;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+}
+.active{
+  background-color: #000000;
+}
+
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ HEADING SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
 h1{
   text-align: center;
-  color: #d65050;
+  color: #5AAB61;
 }
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ IMAGE SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+header img{
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FORM SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.main{
+  height:500px;
+  width:700px;
+  margin:7% auto;
+}
+.main div{
+  display: inline-block;
+  border:none;
+}
+.main .left{
+  width:50%;
+  float:left;
+  background-color: #62BD69;
+  border-radius: 5px;
+  position: relative;
+  color: white;
+}
+.left h1{
+  text-align: center;
+  padding-top:85px;
+  margin-bottom: 0;
+  color: #000000;
+}
+.left p{
+  margin-top:0;
+  text-align:center;
+  color:white;
+}
+.left form{
+  text-align: center;
+}
+.left form input{
+  text-align:center;
+  width:70%;
+  height:20px;
+  margin-bottom:10px;
+  border:none;
+  border:1px solid #F8F8F8;
+  background-color:#F8F8F8;
+  border-radius:25px;
+}
+.left form input:focus{
+  outline:none;
+}
+::-webkit-input-placeholder{
+  color:grey;
+  letter-spacing: 1px;
+}
+.left form input[type="submit"]{
+  background-color:#0C3823;
+  color:#fff;
+  font-weight: bold;
+}
+.left p.forgot{
+  color:#fff;
+  font-size:12px;
+  padding-top:140px;
+}
+.left p.or{
+  color:grey;
+  font-size:15px;
+  border:1px solid #f8f8f8;
+  width:40px;
+  font-weight:200;
+  height:30px;
+  padding-top:10px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 42%;
+  left: 94%;
+  z-index:10;
+}
+
+.main .right{
+  width:50%;
+  float:left;
+  margin-left:-5px;
+  padding-right:5px;
+  background-image:url('https://s4.postimg.org/k8u6q3g8d/baloon.jpg');
+  background-color:#fff;
+  background-size: cover;
+  text-align:center;
+  border-radius: 5px;
+  color: #000000;
+}
+.right h1{
+  padding-top:100px;
+  margin-bottom:10px;
+}
+.right{
+  color:#fff;
+}
+.right p{
+  margin:0;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FOOTER SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+footer{
+	background-color:#62BD69;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	color: white;
+	display: flex;
+}
+
+footer h3{
+  color: #62BD69;
+}
+
+footer h5{
+  color: #000000;
+}
+
+.footer-divide{
+	margin: 0;
+	display: flex;
+	padding: 0;
+   }
+
+.divide{
+	width: 25%;
+	background-color: #25523B;
+	margin: 1px;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.main-coln{
+	display: flex;
+	padding-top: 0;
+
+}
+
+.coln2{
+	padding-left: 40px;
+}
+
+.main-coln2{
+	padding-top: 1px;
+
+}
+
+/*==================== MEDIA QUERIES SECTION =====================*/
+
+@media (max-width: 600px){
+	footer{
+		display: inline;
+		padding-left:10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.divide{
+		width: 150px;
+	}
+
+	.skills-divide{
+		display: inline;
+
+	}
+	.main-coln{
+		display: inline;
+		float: left;
+	}
