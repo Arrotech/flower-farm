@@ -24,7 +24,7 @@ ul{
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background-color: #358856;
+  background-color: #25523B;
   margin: 5px;
   border-radius: 5px;
 }
@@ -41,8 +41,8 @@ li a{
   text-decoration: none;
 }
 li a:hover{
-  background-color: #000000;
-  color: white;
+  background-color: #62BD69;
+  color: #000000;
   border-radius: 5px;
 }
 .active{
