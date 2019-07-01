@@ -1,0 +1,192 @@
+body{
+  font-family: Verdana, Helvetica, sans-serif Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #25523B;
+  color: white;
+  font-size: 20px;
+  text-align:center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #25523B;
+  margin: 5px;
+  border-radius: 5px;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: #000;
+  font-size: 18px;
+  font-style: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+}
+.active{
+  background-color: #000000;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ HEADING SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+h1{
+  text-align: center;
+  color: #5AAB61;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ IMAGE SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+header img{
+  display: block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 40%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+form input[type="submit"]{
+  background-color:#0C3823;
+  color:#fff;
+  width: 42.5%;
+  font-weight: bold;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+  text-align: center;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+footer{
+	background-color:#62BD69;
+	padding: 0px;
+	margin: 0px;
+	clear: both;
+	color: white;
+	display: flex;
+}
+
+footer h3{
+  color: #62BD69;
+}
+
+footer h5{
+  color: #000000;
+}
+
+.footer-divide{
+	margin: 0;
+	display: flex;
+	padding: 0;
+   }
+
+.divide{
+	width: 25%;
+	background-color: #25523B;
+	margin: 1px;
+	padding: 20px;
+	border-radius: 5px;
+	color: white;
+}
+
+.main-coln{
+	display: flex;
+	padding-top: 0;
+
+}
+
+.coln2{
+	padding-left: 40px;
+}
+
+.main-coln2{
+	padding-top: 1px;
+
+}
+
+/*==================== MEDIA QUERIES SECTION =====================*/
+
+@media (max-width: 600px){
+	footer{
+		display: inline;
+		padding-left:10px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.divide{
+		width: 150px;
+	}
+
+	.skills-divide{
+		display: inline;
+
+	}
+	.main-coln{
+		display: inline;
+		float: left;
+	}
