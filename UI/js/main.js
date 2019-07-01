@@ -12,3 +12,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+
+
+function myFunction() {
+  var elmnt = document.getElementById("content");
+  elmnt.scrollIntoView();
+}
