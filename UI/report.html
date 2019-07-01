@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Green-Houses</title>
+    <title>Add-Report</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
   </head>
@@ -23,24 +23,36 @@
             </ul>
         </div>
     </nav>
-    <div class="main">
-            <div class="left">
-                <h1>Greenhouses</h1><br>
-                <p><i>Select by name and ID</i></p>
-                <p class="or"><i><=></i></p>
+    <div class="">
+            <div class="">
+              <div class="report-container">
+              <form>
+                Flower Type:<br>
+                <br>
+                <input type="text" placeholder="Type of flower">
+              </form>
+              </div>
+              <button class="collapsible">+</button>TOP
+              <div class="content">
                 <form>
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Number of blocks">
-                    <h2>Blocks</h2><br>
-                    <input type="text" placeholder="Block No.">
-                    <input type="text" placeholder="Number of beds">
-                    <h2>Beds</h2><br>
-                    <input type="text" placeholder="Bed No.">
-                    <input type="text" placeholder="Flower type">
-                    <input type="text" placeholder="Distance per square meter">
-                    <input type="submit" value="Submit" onclick="callToast()"><br>
+                  <textarea rows="10" cols="50">Add results...</textarea><br>
+                  <button>Add</button>
                 </form>
-
+              </div>
+              <button class="collapsible">+</button>MIDDLE
+              <div class="content">
+                <form>
+                    <textarea rows="10" cols="50">Add results...</textarea><br>
+                    <button>Add</button>
+                </form>
+              </div>
+              <button class="collapsible">+</button>BASE
+              <div class="content">
+                <form>
+                    <textarea rows="10" cols="50">Add results...</textarea><br>
+                    <button>Add</button>
+                </form>
+              </div>
             </div>
             <div class="right">
                 <h1>How to go about this?</h1><br>
@@ -48,6 +60,7 @@
                 <p><i>GreenHouse blocks no.. i.e 6 </i></p>
             </div>
         </div>
+        <script type="text/javascript" src="js/main.js"></script>
         <footer>
           <!-- <div class="footer-divide"> -->
             <div class="divide">
