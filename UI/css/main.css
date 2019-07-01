@@ -41,8 +41,8 @@ li a{
   text-decoration: none;
 }
 li a:hover{
-  background-color: #62BD69;
-  color: #000000;
+  background-color: #000000;
+  color: white;
   border-radius: 5px;
 }
 .active{
@@ -166,6 +166,68 @@ header img{
   margin:0;
 }
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #25523B;
+  color: #000000;
+  cursor: pointer;
+  padding: 18px;
+  width: 3%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button{
+  width: 5%;
+  background-color: #25523B;
+  border-radius: 5px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+textarea{
+  text-align: left;
+}
+
+.report-container{
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.report-container form input{
+  text-align:center;
+  width:15%;
+  height:25px;
+  margin-bottom:10px;
+  border:none;
+  border:1px solid #F8F8F8;
+  background-color:#F8F8F8;
+  border-radius:5px;
+}
+.report-container form input:focus{
+  outline:none;
+}
+::-webkit-input-placeholder{
+  color:grey;
+  letter-spacing: 1px;
+}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FOOTER SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
 
